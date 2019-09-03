@@ -1,0 +1,19 @@
+{
+    "name": "Test VPN",
+    "version": "1.0.0",
+    "slug": "testvpn",
+    "description": "Test VPN",
+    "url": "http:/briandoan.me",    
+    "startup": "application",
+    "host_network": true,
+    "map": ["ssl:rw"],
+    "arch": [
+        "aarch64", 
+        "amd64",
+        "armhf"
+    ],
+    "image": "khoidoan/vpn-test",
+    "boot": "auto",
+    "options": {},
+    "schema": {}   
+}
